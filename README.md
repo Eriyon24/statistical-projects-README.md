@@ -1,5 +1,3 @@
-# statistical-projects-README.md
-
 # Statistical Projects Portfolio
 
 This repository contains a collection of data analysis and statistical projects completed using Python, Excel, and Tableau. Each folder below contains a standalone project with data, code, and visualizations.
