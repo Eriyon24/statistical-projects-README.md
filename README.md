@@ -32,37 +32,100 @@ Group by categories (day of week) to find behavioral trends
 <br><br>
 
 
-🔹 [Movie Analysis Project](https://github.com/Eriyon24/statistical-projects-README.md/blob/main/Movie_Project.ipynb)  
-Exploring IMDB data using exploratory analysis and regression.
+🔹 [🎬 Movie Ratings Analysis](https://github.com/Eriyon24/statistical-projects-README.md/blob/main/Movie_Project.ipynb)  
 
-Movie Ratings Analysis – Key Findings
+🔹 Project Overview
 
-📌 Dataset: MovieLens (subset).
+This project uses the MovieLens Movie Rating Dataset
+ to explore movie ratings and audience preferences. The analysis focused on:
 
-Overall Ratings:
-Average movie rating: 3.21 / 5.
+Overall rating distributions
 
-Highest Rated Movie: Sonic Outlaws (1995) – Avg. Rating: 5.0 (only 3 ratings).
+Most/least popular and highest/lowest rated movies
 
-Lowest Rated Movie: Bang (1995) – Avg. Rating: 0.5 (only 2 ratings).
+Genre-level insights
 
-Most Popular Movie: Pulp Fiction (1994) – 3,320 ratings (shows audience engagement).
+Statistical testing of genre differences
 
-Genre Analysis (from bar chart):
+🔹 Methods
 
-Genres like Film-Noir, Documentary, and War had the highest average ratings (above 3.4).
+Data Preparation
 
-Genres like Horror and Sci-Fi tended to score lower (around 2.7–3.0).
+Loaded and merged movies + ratings data
 
-This highlights how genre strongly influences audience reception.
+Cleaned titles to extract release years
 
-✅ Takeaway:
+Expanded genres for per-genre analysis
 
-Ratings vary widely across genres, with niche categories like Film-Noir often rated higher.
+Exploratory Analysis
 
-The most popular films aren’t necessarily the highest rated.
+Average ratings, popularity counts, and distributions
 
-Sample size matters: very high/low averages often come from just a handful of
+Genre-wise aggregation of ratings
+
+Visualizations (histograms, bar charts)
+
+Statistical Testing
+
+Conducted a t-test to compare Action vs Romance movie ratings
+
+🔹 Key Findings
+
+Average Rating (all movies):
+
+3.21 / 5
+
+Highest Rated Movie:
+
+🎥 Sonic Outlaws (1995)
+
+Avg. Rating: 5.0 (⚠️ only 3 ratings)
+
+Lowest Rated Movie:
+
+🎥 Bang (1995)
+
+Avg. Rating: 0.5 (⚠️ only 2 ratings)
+
+Most Popular Movie (by number of ratings):
+
+🎥 Pulp Fiction (1994) with 3,320 ratings
+
+Distribution of Ratings:
+
+
+Most movies scored between 2.5 and 4.0, with few extremes.
+
+Genre Analysis:
+
+
+Film-Noir, Documentary, War had the highest averages (>3.4)
+
+Horror and Sci-Fi scored lower (~2.7–3.0)
+
+Action vs Romance (t-test):
+
+p < 0.05 → Romance movies were rated significantly higher than Action
+
+🔹 Takeaway
+
+Popularity ≠ quality: The most popular movies (e.g., Pulp Fiction) were not necessarily the highest rated.
+
+Sample size matters: Extreme highs/lows often came from very few ratings.
+
+Genres drive ratings: Niche genres often scored better than mainstream ones.
+
+Statistical inference strengthens insights: T-tests confirm differences between genres are meaningful.
+
+🔹 Skills Demonstrated
+
+Data wrangling (merging, cleaning, parsing years/genres)
+
+Exploratory statistics (averages, distributions, counts)
+
+Visualization (matplotlib / pandas plotting)
+
+Statistical inference (hypothesis testing with t-tests)
 
 
 
