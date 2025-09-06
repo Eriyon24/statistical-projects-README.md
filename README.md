@@ -72,7 +72,71 @@ Sample size matters: very high/low averages often come from just a handful of
 
 
 🔹 [Web Analytics Project](https://github.com/Eriyon24/statistical-projects-README.md/blob/main/Web%20Analytics.ipynb)  
-Analyzing website traffic data to identify user behavior patterns.
+
+🔹 Project Overview
+
+This project analyzes an artificial (simulated) web analytics dataset containing traffic, sessions, conversions, and revenue by source/medium.
+The goal was to practice A/B testing and conversion analysis, answering the question:
+
+Does traffic source “A” or “B” perform better at converting users?
+
+🔹 Methods
+
+Data Cleaning
+
+Removed commas from numeric columns (e.g., "126,870" → 126870).
+
+Converted percentages (e.g., "71.59%") to decimals.
+
+Handled special cases like "<0.01" in conversion rates.
+
+Exploratory Analysis
+
+Compared average conversion rates, bounce rates, and sessions by traffic source.
+
+Built summary tables and visualizations to highlight performance differences.
+
+Statistical Testing
+
+Applied a two-proportion z-test to compare conversion rates between Source A and Source B.
+
+Hypotheses:
+
+H₀: Conversion rates are equal.
+
+H₁: Conversion rates differ.
+
+🔹 Key Findings (Artificial Data)
+
+Conversion Rates (overall):
+
+Source A: 1,110,513 users → 7,566 transactions → 0.68% conversion rate
+
+Source B: 696,901 users → 2,838 transactions → 0.41% conversion rate
+
+Statistical Test:
+
+Two-proportion z-test returned p < 0.05, meaning the difference is statistically significant.
+
+Source A converts significantly better than Source B.
+
+Other Observations:
+
+Bounce rates varied widely (some >70%).
+
+Traffic volume did not always translate to efficiency, but Source A consistently showed stronger conversion performance.
+
+🔹 Takeaway
+
+Even though this dataset is artificial, the workflow demonstrates:
+
+Cleaning and preparing messy web analytics data
+
+Performing A/B testing with statistical significance testing
+
+Extracting actionable insights from conversion metrics
+
+📈 Practical Application: This same process can be applied to real-world website optimization and digital marketing campaigns to decide which design, campaign, or traffic source is most effective.
 
 ---
 
