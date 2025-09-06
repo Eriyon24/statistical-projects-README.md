@@ -29,6 +29,8 @@ Use correlation and scatterplots for relationship testing
 Group by categories (day of week) to find behavioral trends
 
 
+<br><br>
+
 
 🔹 [Movie Analysis Project](https://github.com/Eriyon24/statistical-projects-README.md/blob/main/Movie_Project.ipynb)  
 Exploring IMDB data using exploratory analysis and regression.
@@ -64,11 +66,7 @@ Sample size matters: very high/low averages often come from just a handful of
 
 
 
-
-
-
-
-
+<br><br>
 
 
 [📊 Web Analytics A/B Testing Project](https://github.com/Eriyon24/statistical-projects-README.md/blob/main/Web%20Analytics.ipynb)  
