@@ -71,7 +71,7 @@ Sample size matters: very high/low averages often come from just a handful of
 
 
 
-🔹 [Web Analytics Project](https://github.com/Eriyon24/statistical-projects-README.md/blob/main/Web%20Analytics.ipynb)  
+[📊 Web Analytics A/B Testing Project](https://github.com/Eriyon24/statistical-projects-README.md/blob/main/Web%20Analytics.ipynb)  
 
 🔹 Project Overview
 
